@@ -1,0 +1,20 @@
+.container{
+    display: inline-block;
+    height: 200px;
+    width:200px;
+    border: 20px solid rgb(10, 7, 162);
+}
+.box{
+    display: inline-block;
+    height: 200px;
+    width:200px;
+    background: #aaa;  
+    /* transition: width 500ms, height 5s;   */
+    transform-origin: bottom right;
+    transition: transform 0.5s;
+}
+.container:hover .box {
+    /* width: 400px;
+    height:400px; */
+    transform: rotate(60deg);
+}
